@@ -5,7 +5,7 @@
  *
  * TODO - Replace this content of this view to suite the needs of your application.
  */
-Ext.define('cursoExtJs.view.main.Main', {
+Ext.define('FirstApp.view.main.Main', {
     extend: 'Ext.tab.Panel',
     xtype: 'app-main',
 
@@ -13,9 +13,9 @@ Ext.define('cursoExtJs.view.main.Main', {
         'Ext.plugin.Viewport',
         'Ext.window.MessageBox',
 
-        'cursoExtJs.view.main.MainController',
-        'cursoExtJs.view.main.MainModel',
-        'cursoExtJs.view.main.List'
+        'FirstApp.view.main.MainController',
+        'FirstApp.view.main.MainModel',
+        'FirstApp.view.main.List'
     ],
 
     controller: 'main',

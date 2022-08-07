@@ -3,16 +3,16 @@
  * and launch() the Application class.
  */
 Ext.application({
-    extend: 'cursoExtJs.Application',
+    extend: 'FirstApp.Application',
 
-    name: 'cursoExtJs',
+    name: 'FirstApp',
 
     requires: [
-        // This will automatically load all classes in the cursoExtJs namespace
+        // This will automatically load all classes in the FirstApp namespace
         // so that application classes do not need to require each other.
-        'cursoExtJs.*'
+        'FirstApp.*'
     ],
 
     // The name of the initial view to create.
-    mainView: 'cursoExtJs.view.main.Main'
+    mainView: 'FirstApp.view.main.Main'
 });

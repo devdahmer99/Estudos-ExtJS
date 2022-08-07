@@ -3,7 +3,7 @@
  * "mainView" property. That setting causes an instance of this class to be created and
  * added to the Viewport container.
  */
-Ext.define('cursoExtJs.view.main.Main', {
+Ext.define('FirstApp.view.main.Main', {
     extend: 'Ext.tab.Panel',
     xtype: 'app-main',
 

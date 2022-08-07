@@ -3,10 +3,10 @@
  * calls Ext.application(). This is the ideal place to handle application launch and
  * initialization details.
  */
-Ext.define('cursoExtJs.Application', {
+Ext.define('FirstApp.Application', {
     extend: 'Ext.app.Application',
 
-    name: 'cursoExtJs',
+    name: 'FirstApp',
 
     quickTips: false,
     platformConfig: {

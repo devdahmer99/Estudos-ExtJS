@@ -1,12 +1,12 @@
 /**
  * This view is an example list of people.
  */
-Ext.define('cursoExtJs.view.main.List', {
+Ext.define('FirstApp.view.main.List', {
     extend: 'Ext.grid.Panel',
     xtype: 'mainlist',
 
     requires: [
-        'cursoExtJs.store.Personnel'
+        'FirstApp.store.Personnel'
     ],
 
     title: 'Personnel',

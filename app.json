@@ -1,6 +1,6 @@
 {
-    "name": "cursoExtJs",
-    "namespace": "cursoExtJs",
+    "name": "FirstApp",
+    "namespace": "FirstApp",
     "version": "1.0.0.0",
     "framework": "ext",
 
@@ -64,13 +64,13 @@
     "sass": {
         /**
          * The root namespace to use when mapping *.scss files to classes in the
-         * sass/src and sass/var directories. For example, "cursoExtJs.view.Foo" would
-         * map to "sass/src/view/Foo.scss". If we changed this to "cursoExtJs.view" then
+         * sass/src and sass/var directories. For example, "FirstApp.view.Foo" would
+         * map to "sass/src/view/Foo.scss". If we changed this to "FirstApp.view" then
          * it would map to "sass/src/Foo.scss". To style classes outside the app's
          * root namespace, change this to "". Doing so would change the mapping of
-         * "cursoExtJs.view.Foo" to "sass/src/cursoExtJs/view/Foo.scss".
+         * "FirstApp.view.Foo" to "sass/src/FirstApp/view/Foo.scss".
          */
-        "namespace": "cursoExtJs",
+        "namespace": "FirstApp",
 
         /**
          * Generated sass source settings
@@ -547,5 +547,5 @@
      * Uniquely generated id for this application, used as prefix for localStorage keys.
      * Normally you should never change this value.
      */
-    "id": "c36bb762-78ca-4542-8bb3-d449f7107372"
+    "id": "075a3e9c-9ba2-471c-adf6-34425a9e45be"
 }
